@@ -47,15 +47,17 @@ class ViewController: UIViewController {
             
             let breakfastViewController = segue.destinationViewController as! BreakfastViewController
             
-            breakfastViewController.firstDevice = device1.text!
-            breakfastViewController.secondDevice = device2.text!
-            breakfastViewController.thirdDevice = device3.text!
-            breakfastViewController.fourthDevice = device4.text!
+//            breakfastViewController.firstDevice = device1.text!
+//            breakfastViewController.secondDevice = device2.text!
+//            breakfastViewController.thirdDevice = device3.text!
+//            breakfastViewController.fourthDevice = device4.text!
             
             breakfastViewController.firstDeviceName = devicename1.text!
             breakfastViewController.secondDeviceName = devicename2.text!
             breakfastViewController.thirdDeviceName = devicename3.text!
             breakfastViewController.fourthDeviceName = devicename4.text!
+            
+//            其他数据需要从数据库中获取
         }
     }
 

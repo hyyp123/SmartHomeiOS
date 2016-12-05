@@ -21,7 +21,7 @@ extension BreakfastViewController:UIPickerViewDataSource{
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int{
         
         if component == 0 {
-            return props.count
+            return 1
         }
 
         return 100
@@ -34,7 +34,7 @@ extension BreakfastViewController:UIPickerViewDelegate {
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String?{
         
         if component == 0{
-            return props[row]
+            return "1"
         }
         
         
